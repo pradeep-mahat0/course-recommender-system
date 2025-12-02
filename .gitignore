@@ -1,0 +1,19 @@
+# Python temporary files
+__pycache__/
+*.py[cod]
+
+# Virtual Environment
+venv/
+env/
+.env
+
+# OS System files
+.DS_Store
+
+# Optional: Ignore generated models if they are too large
+models/
+*.joblib
+*.keras
+files/
+*.csv
+*.ipynb
