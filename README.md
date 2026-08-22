@@ -1,4 +1,4 @@
-# 🎓 Personalized Learning Recommender System
+# 🎓 CourseIQ — Personalized Learning Recommender
 
 > A full-stack machine learning application that solves the **"too many courses, too little time"** problem by recommending the most relevant online courses to each learner — powered by 9 different recommendation algorithms, a clean modular Python codebase, and an interactive Streamlit interface.
 
@@ -35,7 +35,7 @@ A typical learner faces these challenges:
 - 🎯 **Personalisation gap** — generic "most popular" lists ignore individual preferences
 - 🆕 **Cold-start problem** — new users have no history, yet still need good recommendations
 
-This project builds a **Personalized Learning Recommender System** that solves these problems by learning from a user's past course interactions and producing ranked, personalised course suggestions in seconds.
+This project — **CourseIQ** — solves these problems by learning from a user's past course interactions and producing ranked, personalised course suggestions in seconds.
 
 ---
 
@@ -59,7 +59,7 @@ The system takes a user's list of previously taken courses and runs them through
 
 ```
 ┌─────────────────────────────────────────────────────────┐
-│  🎓 Personalized Learning Recommender                   │
+│  🎓 CourseIQ — Personalized Learning Recommender        │
 │                                                         │
 │  Select courses you have audited or completed:          │
 │  ┌────────────────────────────────────────────────┐    │

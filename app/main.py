@@ -20,7 +20,7 @@ from app.components.sidebar import render_sidebar
 
 # ── Page config ───────────────────────────────────────────────────────────────
 st.set_page_config(
-    page_title="Personalised Learning Recommender",
+    page_title="CourseIQ — Personalized Learning Recommender",
     layout="wide",
     initial_sidebar_state="expanded",
 )
@@ -49,7 +49,7 @@ def _init_app() -> pd.DataFrame:
 
 
 # ── Main UI ───────────────────────────────────────────────────────────────────
-st.title("Personalised Learning Recommender")
+st.title("🎓 CourseIQ — Personalized Learning Recommender")
 
 selected_courses_df         = _init_app()
 model_name, params          = render_sidebar()
